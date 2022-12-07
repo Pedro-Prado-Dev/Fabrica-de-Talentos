@@ -1,0 +1,134 @@
+body{
+    background-color: #FFB800;
+    margin: 0px;
+}
+#menu{
+    width: 100%;
+    height: 90px;
+    background-color: #0F8B00;
+}
+.logomarca{
+    width:150px;
+    height:87px;
+    margin-left: 5px;
+    position: absolute;
+}
+.venda{
+    float: right;
+    margin-right: 40px;
+    margin-top: 20px; /* margem dos itens do menu */
+    background-color: #FFB800;
+    width: 220px;
+    height: 35px;
+    border-radius: 30px;
+    filter: drop-shadow(0px 1px 1px #fdd034)
+}
+#venda:hover{
+    background-color: #FFDD50;
+    transition: 0.5s;
+}
+
+.img-botão{
+    margin-right: 40px;
+    margin-top: -7px;
+    width:150px;
+    height: 50px;
+    float: right;
+    cursor: pointer;
+}
+
+/*Fim do menu*/
+
+.titulo{
+    font-family: "Arial";
+    color: #0F8B00;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 3%;
+}
+.banners{
+    display: flex;
+    overflow-x: auto;
+    padding: 20px 20px;
+}
+.banners::-webkit-scrollbar{
+    width: 0;
+}
+.banner3{
+    margin-left: 20px;
+}
+
+/*Fim index*/
+
+#formulario {
+    font-family: "Arial";
+    text-align: center;
+    margin-top: 20px;
+    color: #444444;
+    font-size: 14px;
+
+}
+.nome{
+    color: #0F8B00;
+    font-family: "Arial";
+}
+
+
+input {
+    width: 300px;
+    height: 20px;
+}
+
+textarea {
+    width: 300px;
+    height: 70px;
+}
+
+#enviar input {
+    background-color: #0F8B00;
+    cursor: pointer;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    filter: drop-shadow(0px 4px 4px #444444);
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+#enviar input:hover {
+    background-color: green;
+    transition: 0.5s;
+}
+/* fim do login/cadastro */
+
+table {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 65px;
+    text-align: center;
+    color: #444444;
+}
+table tr td {
+    width: 350px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.video{
+    padding: 200px;
+}
+
+@media (max-width: 700px) {
+    .banner1{
+        height: 100px;
+        width: 300px;
+    }
+    .banner2{
+        height: 100px;
+        width: 300px;
+    }
+    .banner3{
+        height: 100px;
+        width: 300px;
+    }
+}

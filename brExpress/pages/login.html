@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="../media/Logo-removebg-preview.png"/>
+    <title>Login</title>
+    <link rel="stylesheet" href="../style/custom.css" media="screen">
+</head>
+<script>
+    function msg() {
+      alert("Obrigada por entrar!");
+    }
+</script>
+<body>
+    <div id="menu">
+        <div id="logo">
+            <a href="../index.html">
+                <img src="../media/Logo.png" class="logomarca">
+            </a>
+        </div>
+        <div id="venda" class="venda">
+            <a href="../pages/login.html">
+                <img src="../media/Br-removebg-preview-1.png" class="img-botão">
+            </a>
+        </div>
+    </div>
+    <div id="pagina-login">
+        <div class="titulo"><h1>Faça seu login</h1></div>
+    </div>
+    <div id="formulario">
+        <form><b class="nome">Nome:</b> <br> <input type="text" name="nome" placeholder="Digite seu nome aqui"></form>
+        <br>
+        <form><b class="nome">E-mail:</b> <br> <input type="email" name="email" placeholder="Digite o seu e-mail aqui"></form>
+        <br>
+        <form><b class="nome">Senha:</b> <br> <input type="password" name="senha" placeholder="Digite sua senha aqui"></form>
+        <br>
+        <form id="enviar"><input type="button" value="CONTINUAR" onclick="msg()"></form>
+        <a class="nome" href="cadastro.html">
+            <h3>Não possui conta? Cadatre-se</h3>
+        </a>
+    </div>
+</body>
+</html>
