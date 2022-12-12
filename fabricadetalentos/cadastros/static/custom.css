@@ -1,0 +1,20 @@
+#menu{
+background-color: #2779a6;
+}
+.logo{
+    margin-top: 15px;
+    margin-left: 30px!important;
+    width: 60px;
+    height: 50px;
+    position: relative;
+}
+.titulo{
+    margin-top: -45px;
+    font-size: 30px;
+    text-align: center;
+
+}
+.table-infos{
+    text-align: center;
+    padding: 5%;
+}
